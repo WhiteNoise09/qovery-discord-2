@@ -1,0 +1,14 @@
+application:
+  name: botV2
+  project: Discord
+  organization: QoveryCommunity
+databases:
+- type: postgresql
+  version: "12"
+  name: my-postgresql
+routers:
+- name: main
+  routes:
+  - application_name: botV2
+    paths:
+    - /
